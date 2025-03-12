@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
+import '@salesforce-ux/design-system/assets/styles/salesforce-lightning-design-system.min.css';
 
 import { TempoDevtools } from "tempo-devtools";
 TempoDevtools.init();
