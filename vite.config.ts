@@ -26,7 +26,6 @@ export default defineConfig({
     preserveSymlinks: true,
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      // "/assets": "node_modules/@salesforce-ux/design-system/assets",
     },
   },
   server: {
